@@ -1,0 +1,28 @@
+{
+  "name": "nodejs-chatgpt-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "exports": "./index.js",
+  "type": "module",
+  "dependencies": {
+    "chalk": "^5.3.0",
+    "commander": "^12.0.0",
+    "dotenv": "^16.4.5",
+    "inquirer": "^9.2.15",
+    "mongodb": "^6.3.0",
+    "mongoose": "^8.2.0",
+    "nanoid": "^5.0.6",
+    "openai": "^4.28.0",
+    "ora": "^8.0.1"
+  },
+  "bin": {
+    "todo": "index.js"
+  }
+}
